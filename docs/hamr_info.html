@@ -1,0 +1,506 @@
+﻿<!DOCTYPE HTML>
+
+<html>
+
+
+<!-- Mirrored from ismir2015.uma.es/hamr_info.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 08 Nov 2015 04:52:32 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+
+<!--meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+
+<meta http-equiv='cache-control' content='no-cache'>
+
+<meta http-equiv='expires' content='0'>
+
+<meta http-equiv='pragma' content='no-cache'>
+
+<title>ISMIR 2015 Málaga</title>
+
+<link rel="stylesheet" type="text/css" href="css/main-style.css" />
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+<script type="text/javascript" src="js/general.js"></script>
+
+
+
+<script>
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+})(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+
+
+  ga('create', 'UA-56389959-1', 'auto');
+
+  ga('send', 'pageview');
+
+
+
+</script> 
+
+
+<script src="jquery.html"></script> 
+    <script> 
+    $(function(){
+      $("#includenoticias").load("noticias.html"); 
+    });
+      $(function(){
+      $("#includepie").load("pie.html"); 
+    });
+
+    </script>
+
+
+<style>
+
+  #map_canvas {
+
+    width: 100%;
+
+    height: 400px;
+
+  }
+
+</style>
+
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+
+<script>
+
+  function initialize() {
+
+    var mapCanvas = document.getElementById('map_canvas');
+
+    var mapOptions = {
+
+      center: new google.maps.LatLng(36.719197,-4.496564),
+
+      zoom: 16,
+
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+
+    }
+
+    var map = new google.maps.Map(mapCanvas, mapOptions);
+
+	marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(36.719197, -4.496564)});
+
+	infowindow = new google.maps.InfoWindow({content:"<b>The Green Ray, Ampliación del Campus Universitario de Teatinos, Malaga" });
+
+	google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});
+
+	infowindow.open(map,marker);
+
+	
+
+  }
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
+
+</head>
+
+<body>
+
+
+
+	<header id="header">
+
+		
+
+		<div id="slideshow-header">
+
+			<div id="slideshow-bg">
+
+			</div>
+
+			<div id="slideshow-logo">
+
+			</div>
+
+		</div>
+
+		
+
+		<div id="copyrightmalaga-header">
+
+			<h2>© Área de Turismo. Ayuntamiento de Málaga</h2>
+
+		</div>
+
+		
+
+		<div id="sub-header">
+
+		</div>
+
+		
+
+	</header>
+
+	
+
+	<div id="main-block">
+
+	
+
+		<div id="menu-block">
+
+			<nav id="menu-navigation">
+
+				<ul>
+
+					<li class="menu-option">
+
+						<a href="index-2.html">Home</a>
+
+						<ul class="submenu-navigation">
+
+							<li><a href="index-2.html">Welcome</a></li>
+
+							<li><a href="conferencecommittee.html">Conference 
+							Committee</a></li>
+
+						</ul>
+
+					</li>
+
+					<li class="menu-option">
+
+						<a href="callforpapers.html">Authors</a>
+
+						<ul class="submenu-navigation">
+
+							<li><a href="callforpapers.html">Call for papers</a></li>
+
+							<li><a href="papersubmission.html">Paper Submission</a></li>
+
+							<li><a href="guidelineforreviewers.html">Guidelines 
+							for reviewers</a></li>
+
+							<li><a href="informationforpresenters.html">
+
+							Information for presenters</a></li>
+
+						</ul>
+
+					</li>
+
+					<li class="menu-option selected">
+
+						<a href="callfortutorials.html">Tutorials</a>
+
+						<ul class="submenu-navigation">
+
+							<li><a href="callfortutorials.html">Call for 
+							tutorials</a></li>
+
+							<li><a href="tutorialsubmission.html">Tutorial 
+							Submission</a></li>
+
+							<li><a href="tutorials_venue.html" class="submenu-selected">
+							Tutorial Venue</a></li>
+							
+							<li><a href="tutorialschedule.html">Tutorial Schedule</a></li>
+						
+
+
+
+
+
+
+
+						</ul>
+
+					</li>
+
+					<li class="menu-option">
+
+						<a href="callformusic.html">Music</a>
+
+					</li>
+
+					<li class="menu-option">
+
+						<a href="callforlatebreakingdemo.html">
+
+						Late-breaking/demo</a>
+
+					</li>
+
+					<li class="menu-option">
+
+						<a href="unconference.html">Unconference</a>
+
+					</li>
+
+					<li class="menu-option">
+
+						<a href="importantdates.html">Important dates</a>
+
+					</li>
+
+					<li class="menu-option">
+
+						<a href="programismir2015.html">Program</a>
+
+						<ul class="submenu-navigation">
+
+							<li><a href="programismir2015.html">Program ISMIR 
+							2015</a></li>
+
+							<li><a href="keynotespeakers.html">Keynote speakers</a></li>
+
+							<li><a href="proceedings.html">Proceedings</a></li>
+
+							<li><a href="socialprogram.html">Social program</a></li>
+
+						</ul>
+
+					</li>
+
+					<li class="menu-option">
+
+						<a href="registration.html">Registration</a>
+
+					</li>
+
+					<li class="menu-option">
+
+						<a href="venue.html">Venue &amp; Host City</a>
+
+						<ul class="submenu-navigation">
+
+							<li><a href="venue.html" >
+
+							Venue</a></li>
+
+							<li><a href="malaga.html">Málaga</a></li>
+
+							<li><a href="travelinfo.html">Travel info</a></li>
+
+							<li><a href="accommodation.html">Accommodation</a></li>
+
+						</ul>
+
+					</li>
+
+					<li class="menu-option">
+
+						<a href="mirex2015.html">MIREX 2015</a>
+
+					</li>
+
+					<li class="menu-option">
+
+						<a href="ismir2015sponsors.html">Sponsors</a>
+
+						<ul class="submenu-navigation">
+
+							<li><a href="ismir2015sponsors.html">ISMIR 2015 
+							Sponsors</a></li>
+
+							<li><a href="callforsponsorship.html">Call for 
+							Sponsorship</a></li>
+
+						
+
+						</ul>
+
+					</li>
+
+					<li class="menu-option">
+
+						<a href="aboutismir.html">About</a>
+
+						<ul class="submenu-navigation">
+
+							<li><a href="aboutismir.html">About ISMIR</a></li>
+
+							<li><a href="ismirimpact.html">ISMIR's impact </a></li>
+
+
+
+							<li><a href="contact.html">Contact</a></li>
+
+						</ul>
+
+					</li>
+
+				</ul>
+
+			</nav>
+
+		</div>
+
+		
+
+		<div id="content-block">
+
+			<article id="contentblock-info">
+
+				<h1>HAMR@ISMIR2015 Venue</h1>
+
+				<section>
+
+<p><a href="http://labrosa.ee.columbia.edu/hamr_ismir2015/" target="new">HAMR@ISMIR 2015</a> will provide a space for individuals from various institutions, backgrounds, and experience levels to test out novel ideas as opposed
+ to finishing a polished project and paper. As the name suggests, this iteration of HAMR will be held in conjunction with the the 16th International Society 
+ for Music Information Retrieval Conference in hopes of fostering intercollegiate collaborations between conference attendees. <a href="http://labrosa.ee.columbia.edu/hamr_ismir2015/" target="new">HAMR@ISMIR 2015</a> will be held at
+  the University of Malaga immediately before ISMIR on October 24th-25th, 2015. </p>
+  
+  <p>You can register <a href="https://docs.google.com/forms/d/1_3d62iC6_wVhQtkh70sBAEAfq-AtiPeKTjK1K89cIrc/viewform?usp=send_form"> HERE </a></p>
+  
+  <p><a href="http://labrosa.ee.columbia.edu/hamr_ismir2015/" target="new">HAMR@ISMIR 2015</a> Schedule will be as follows:
+  
+  
+  <section>	
+				
+
+<table class="table">
+
+ <tr><th>Saturday, October 24th</th></tr>
+<tr><td style="text-align:left">9:30 AM - Coffee</td></tr>
+<tr><td style="text-align:left"> 10:00 AM - Introductory remarks, project pitches </td></tr>
+<tr><td style="text-align:left">10:30 AM - Hacking begins</td></tr>
+<tr><td style="text-align:left">1:00 PM - Tutorials, lunch served</td></tr>
+<tr><td style="text-align:left">6:00 PM - Hacking ends for the night (officially, at least)</td></tr>
+
+<tr><th>Sunday, October 25th</th></tr>
+<tr><td style="text-align:left">9:30 AM - Coffee. Hacking restarts</td></tr>
+<tr><td style="text-align:left"> 12:15 PM - Lunch served </td></tr>
+<tr><td style="text-align:left">5:00 PM - Hacking ends, presentations begin</td></tr>
+<tr><td style="text-align:left">6:00 PM - Prizes awarded, HAMR ends, drinks nearby</td></tr>
+</table>
+</section>
+  
+  
+
+  
+  
+  </p>
+  <!--<p>You can find further information about  <a href="http://labrosa.ee.columbia.edu/hamr_ismir2015/" target="new">HAMR@ISMIR 2015 HERE</a></p>-->
+  
+				<p>The venue for <a href="http://labrosa.ee.columbia.edu/hamr_ismir2015/" target="new">HAMR@ISMIR 2015</a> will be the The Green Ray 
+					building of the Universidad de Málaga</p>
+
+				
+
+					<img id="imgetsituma" src="css/images/20150424_125245.jpg" width="600" alt="The Green Ray">
+					<img id="rayoverde" src="css/images/IMG_3122b.jpg" width="300" alt="The Green Ray">
+					<img id="rayoverde" src="css/images/IMG_3137b.jpg" width="300" alt="The Green Ray">
+
+
+				 
+
+					<!--<img id="imgetsitentorno" src="css/images/etsitentorno.jpg">
+
+					<img id="imgsalondeactos" src="css/images/etsisalondeactos.jpg" alt="Salón de actos">-->
+
+				</section>
+
+				<section>
+
+					<div class="contentblock-title">
+
+						<h3>How to get there</h3>
+
+					</div>
+
+				<!--	<div id="map_canvas"></div>-->
+                   <img id="rayoverde" src="css/images/locarayoverde.png" width="600" alt="The Green Ray">
+
+				</section>
+
+				<section>
+
+					<p>You can reach very easily the The Green Ray by metro. It is located at the last stop called "Andalucia Tech" of the Red line L1</p>
+<a href="http://metromalaga.es/" target="new"><p>
+
+							Click to access Metro Málaga.</p></a>
+
+					<!--<ul class="contentblock-list">
+
+						<li><div class="contentblock-item"><div class="marker"></div><h3>
+
+							Bus</h3></div></li>
+
+						<li class="contentblock-itemextra">
+
+							<p>Lines 8, 11, 18, 22.</p>
+
+							<a href="https://www.google.com/maps/dir//35,+Bulevar+Louis+Pasteur,+Universidad+de+M%C3%A1laga,+29010+M%C3%A1laga,+Espa%C3%B1a/@36.7168443,-4.4736549,17z/data=!3m1!5s0xd72f74b7195529b:0x8038540775a4f455!4m13!1m4!3m3!1s0xd72f74b71aa6201:0xc221c3c01cd9320a!2s35,+Bulevar+Louis+Pasteur,+Universidad+de+M%C3%A1laga,+29010+M%C3%A1laga,+Espa%C3%B1a!3b1!4m7!1m0!1m5!1m1!1s0xd72f74b71aa6201:0xc221c3c01cd9320a!2m2!1d-4.4778199!2d36.7151522" target="new"><p>
+
+							Click to "How to get there".</p></a>
+
+						</li>
+
+					</ul>
+
+					<ul class="contentblock-list">
+
+						<li><div class="contentblock-item"><div class="marker"></div><h3>
+
+							Metro</h3></div></li>
+
+						<li class="contentblock-itemextra">
+
+							<p>Red line “Clínico”.</p>
+
+							<a href="http://metromalaga.es/" target="new"><p>
+
+							Click to access Metro Málaga.</p></a>
+
+						</li>
+
+					</ul>-->
+
+				</section>
+
+			</article>
+<br/><br/><br/>
+		</div>
+
+		
+
+		
+<div id="includenoticias"></div>
+			
+		
+
+
+		
+
+
+
+
+
+	
+
+	</div>
+
+	
+
+<div id="includepie"></div>
+
+
+
+</body>
+
+
+<!-- Mirrored from ismir2015.uma.es/hamr_info.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 08 Nov 2015 04:52:33 GMT -->
+</html>
